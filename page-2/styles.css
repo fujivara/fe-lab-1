@@ -7,10 +7,6 @@
   @media only screen and (max-width: 1000px) {
     font-size: 90%;
   }
-
-  @media only screen and (max-width: 400px) {
-    font-size: 80%;
-  }
 }
 
 body {
@@ -30,6 +26,10 @@ body {
   top: 0;
   left: 0;
   right: 0;
+
+  @media only screen and (max-width: 400px) {
+    padding: 0 .5rem;
+  }
 
   .logo {
     height: 5rem;
